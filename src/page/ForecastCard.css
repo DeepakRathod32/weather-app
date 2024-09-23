@@ -1,0 +1,89 @@
+.forecastContainer{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #6c4536;
+    align-items: center;
+    border-radius: 12px;
+    margin: 15px;
+}
+.temContainer{
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+.tempDiv{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+.date{
+    margin-left: 15px;
+    font-size: 1.3em;
+    color: #6c4536;
+}
+.lowTemp, .highTemp{
+    font-size: 1.3em;
+    color: #6c4536;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+}
+.title{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-left: 18px;
+    color: #6c4536;
+}
+.forecastWrapper{
+    margin-top: 35px;
+}
+
+@media (min-width: 650px) and (max-width: 1024px) {
+    .forecastContainer {
+        border: 3px solid #6c4536;
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .title {
+        font-size: 2em;
+        margin-left: 76px;
+    }
+    .date {
+        font-size: 2em;
+    }
+    .lowTemp, .highTemp {
+        font-size: 2em;
+    }
+    .temContainer {
+        margin-right: 30px;
+    }
+    .tempDiv {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px){
+    .forecastContainer {
+        border: 3px solid #6c4536;
+        margin: auto;
+        width: 60%;
+        margin-top: 20px;
+    }
+    .date {
+        font-size: 2em;
+        margin-left: 40px;
+    }
+    .lowTemp, .highTemp {
+        font-size: 2em;
+    }
+    .tempDiv {
+        width: 20%;
+        margin-right: 35px;
+    }
+    .title {
+        font-size: 2em;
+        margin-left: 405px;
+    }
+}
