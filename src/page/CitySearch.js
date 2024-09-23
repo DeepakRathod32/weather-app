@@ -19,7 +19,9 @@ const CitySearch = (props) => {
         async function apiCall(){
             const res = await fetchCitySearch(searchTerm);
             if(res?.data.length === 0 &&  searchTerm.length > 3){
-              alert("city not found")
+              alert("city not found");
+            }else if(searchTerm === ""){
+              alert("enter city to search");
             }
             return res;
           }
