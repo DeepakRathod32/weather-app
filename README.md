@@ -18,6 +18,25 @@ i. Here written function to get weekday from date to show in forecast list from 
 Did it using mobile first approach.
 8. Used axios library to make api calls
 
+setup instructions 
+unzip the zip I sent you 
+go inside weather folder 
+npm start to run in desktop 
+if doesn't work 
+do npm install 
+the npm start it will work
+
+Details on how to application use
+1. open the link mentioned below
+https://66f0d495856abd635863c956--voluble-torte-346189.netlify.app/
+
+2. for search just click in search box 
+start typing it will search by it self. No need to enter to search.
+
+3. once entered your city just click on drop-down you will see list of cities in mobile select any and you will see data of it in your screen
+
+Thanks!!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
