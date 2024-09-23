@@ -1,3 +1,23 @@
+This weather app has features 
+1.component CurrentWeather.js
+It will display weather of default city "new delhi"
+it,s a reusable component 
+2. component CitySearsh.js
+It will let user search city when they click on city you will be able to see weather for that city in app
+i. Added debounce functionality to reduce    load on server.
+ii. it shows list of cities those are found in in search in mobile you have to click on drop-down to see the list.
+3. Toggle button 
+i. It will convert temperature from celsius to Fahrenheit or vice versa 
+ii. Function written to from scratch to convert temperatures.
+4. component Forecast card.js
+It will show forecast for next 5 days including today.
+i. Here written function to get weekday from date to show in forecast list from scratch.
+5. Added pull to refresh functionality for present city using local storage functionality.
+6. Used useCallback function to make app more efficient and fast 
+7. Added responsiveness to make it work in mobile, tablet and desktop.
+Did it using mobile first approach.
+8. Used axios library to make api calls
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
